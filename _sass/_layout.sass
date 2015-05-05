@@ -42,3 +42,10 @@ body
 
 .no-break
   margin-bottom: 2px
+
+.three-point
+  @include grid-row
+  .three-point-point
+    @include grid-x-col(16/3)
+    i, h3
+      text-align: center
